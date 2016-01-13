@@ -1,0 +1,23 @@
+{
+  "manifest_version":2,
+  "name":"编辑网页文字",
+  "version":"0.1",
+  "description":"无聊写着玩- -",
+  "icons":{
+    "16":"images/pao.png"
+  },
+  "browser_action":{
+    "default_icon":{
+      "19":"images/pao.png"
+    },
+    "default_popup":"popup.html"
+  },
+  "background":{
+    "scripts":[
+      "js/createMenu.js"
+    ]
+  },
+  "permissions":[
+    "contextMenus","tabs", "*://*/*"
+  ]
+}
